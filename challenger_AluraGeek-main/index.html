@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/your-path-to-uicons/css/uicons-solid-rounded.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <title>challenge geek</title>
+</head>
+<body>
+    <header>
+        <div class="cabecera">
+            <h1 class="titulo_pie_de_pagina">AluraGeek</h1>
+        </div>
+    </header>
+
+    <main class="contenedor">
+
+        <div  class="productos">
+            <h2 class="nombre">Mis Productos</h2>
+
+            <div class="contenedor-producto" data-producto>
+
+                <div class="cabesones">
+                   <img class="cabesones_imagen" src="imagenes/bane.jpg" alt="bane">
+                    <div class="cabesones_informacion">
+                        <p class="cabesones_nombre"> FUNKO POP! HEROES: Bane Vinyl Figure</p>
+                        <p class="cabesones_precio">$80</p>
+                        <button class="icono_borrar" data-id="${id}">
+                            <div class="icono_basurero">
+                                <img src="imagenes/icon _trash _.png" alt="Eliminar">
+                            </div>
+                        </button>
+                    </div>   
+                </div>
+                
+                <div class="cabesones">
+                  <img class="cabesones_imagen" src="imagenes/captain-america.jpg" alt="captain-america">
+                    <div class="cabesones_informacion">
+                        <p class="cabesones_nombre">FUNKO POP! MARVEL: Captain America</p>
+                        <p class="cabesones_precio">$80</p>
+                        <button class="icono_borrar" data-id="${id}">
+                            <div class="icono_basurero">
+                                <img src="imagenes/icon _trash _.png" alt="Eliminar">
+                            </div>
+                        </button>
+                    </div>     
+                </div>
+                
+                <div class="cabesones">
+                    <img class="cabesones_imagen" src="./imagenes/mr increible.jpg" alt="mr increible">
+                    <div class="cabesones_informacion">
+                        <p class="cabesones_nombre">FUNKO POP! DISNEY: Mr Incredible</p>
+                        <p class="cabesones_precio">$80</p>
+                        <button class="icono_borrar" data-id="${id}">
+                            <div class="icono_basurero">
+                                <img src="./imagenes/icon _trash _.png" alt="Eliminar">
+                            </div>
+                        </button>
+                    </div>     
+                </div>
+
+                <div class="cabesones">
+                   <img class="cabesones_imagen" src="./imagenes/sindrome.jpg" alt="sindrome">
+                    <div class="cabesones_informacion">
+                        <p class="cabesones_nombre">FUNKO POP! DISNEY: Syndrome</p>
+                        <p class="cabesones_precio">$75</p>
+                        <button class="icono_borrar" data-id="${id}">
+                            <div class="icono_basurero">
+                                <img src="./imagenes/icon _trash _.png" alt="Eliminar">
+                            </div>
+                        </button>
+                    </div>    
+                </div>
+                
+                <div class="cabesones">
+                   <img class="cabesones_imagen" src="./imagenes/skeletor.jpg" alt="skeletor">
+                    <div class="cabesones_informacion">
+                        <p class="cabesones_nombre">FUNKO POP! TELEVISION: Skeletor</p>
+                        <p class="cabesones_precio">$75</p>
+                        <button class="icono_borrar" data-id="${id}">
+                            <div class="icono_basurero">
+                                <img src="./imagenes/icon _trash _.png" alt="Eliminar">
+                            </div>
+                        </button>
+                    </div>     
+                </div>
+                
+                <div class="cabesones">
+                    <img class="cabesones_imagen" src="./imagenes/spider-man.jpg" alt="spider-man">
+                    <div class="cabesones_informacion">
+                        <p class="cabesones_nombre">FUNKO POP! MARVEL: The Amazing Spider-Man </p>
+                        <p class="cabesones_precio">$75</p>
+                        <button class="icono_borrar" data-id="${id}">
+                            <div class="icono_basurero">
+                                <img src="./imagenes/icon _trash _.png" alt="Eliminar">
+                            </div>
+                        </button>
+                    </div>     
+                </div>    
+                </div>
+
+            </div>
+       
+
+        <div class="contenedor_formulario">
+            <h2 class="titulo_formulario">Agregar <br>Producto</h2>
+
+            <form class="formulario" data-form>
+                <fieldset class="formulario_producto">
+                    <input name="nombre" id="nombre" class="input-producto" placeholder="nombre" type="text" data-nombre />
+                </fieldset>
+
+                <fieldset class="formulario_producto">
+                    <input name="precio" id="precio" class="input-producto" placeholder="precio" type="text" data-precio />
+                </fieldset>
+
+                <fieldset class="formulario_producto">
+                    <input name="imagen" id="imagen" class="input-producto" placeholder="imagen" type="text" data-imagen />
+                </fieldset>
+
+                <div class="formulario_botones">
+                    <button class="boton_enviar" type="submit" value="enviar" id="btn-enviar">Enviar</button>
+                    <button class="boton_limpiar" type="submit" value="limpiar" id="btn-limpiar">limpiar</button>
+                </div>  
+            </form>
+        </div>
+    </main>
+
+    <div>
+        <footer class="footer">
+            <h1 class="titulo_pie_de_pagina"> AluraGeek</h1>
+            <p class="copyright">Desarrollado por Alisson V.</p>
+            <p class="copyright">Alura Latam - 2024</p>
+            <div class="logo_contenedor">
+                <a href="https://www.linkedin.com/in/alisson-valentin-b41293259/" aria-label="de"  target="_blank">
+                    <img width="94" height="94" src="https://img.icons8.com/3d-fluency/94/linkedin.png" alt="linkedin"
+                    class="redes-sociales-logo" />
+                </a>
+                <a href="https://github.com/AlissonVM" aria-label="de" target="_blank">
+                    <img width="94" height="94" src="https://img.icons8.com/3d-fluency/94/github.png" alt="github"
+                        class="redes-sociales-logo" />
+            </div>
+        </footer>
+    </div>
+    <script src="./js/app.js" type="module"></script>
+</body>
+</html>
